@@ -12,6 +12,7 @@ At the start of the game, the player is shown the *hash* of the Server Seed.
 This signals to the player that the server seed is predetermined and won't be changed later. The House cannot *yet* show the unhashed Server Seed, otherwise the player could calculate the outcome in advance even before making a wager! This method makes it fair for both parties.
 
 Once the game ends, the Server Seed is revealed and the player can hash it themselves to verify that the two hashes match.
+
 ![](https://github.com/mde5/provably-fair/blob/master/assets/serverseed.png)
 
 The player is encouraged to edit their own seed (to ensure the server doesn't know this information in advance), and may at any time ask the server to choose new random seeds. 
