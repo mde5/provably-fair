@@ -16,6 +16,7 @@ Once the game ends, the Server Seed is revealed and the player can hash it thems
 ![](https://github.com/mde5/provably-fair/blob/master/assets/serverseed.png)
 
 The player is encouraged to edit their own seed (to ensure the server doesn't know this information in advance), and may at any time ask the server to choose new random seeds. 
+
 ![](https://github.com/mde5/provably-fair/blob/master/assets/clientseed.png)
 
 ## Verifying the outcome
