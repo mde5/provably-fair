@@ -2,6 +2,8 @@
 
 A Provably Fair game of chance written in PHP using AJAX and JQuery.
 
+Link: [https://provably-fair-demo.herokuapp.com/](https://provably-fair-demo.herokuapp.com/)
+
 ## How it works
 
 The player and the House each choose a random string or "seed". These two seeds are combined using an algorithm known as HMAC-SHA256. The resulting outcome is converted to a decimal number, and the player wagers whether it will be an odd or even number. Since HMAC-SHA256 will always produce the same result given the same inputs -- and the player is given all the inputs -- it is easy for the player to verify that the outcome isn't rigged.
